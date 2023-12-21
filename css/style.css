@@ -12,4 +12,34 @@ body
 header
 {
     background-color:#2ecc71;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    justify-content: space-between;
 }
+
+h1
+{
+    margin: 10px;
+}
+nav
+{
+    display: flex;
+}
+
+div
+{
+    display: flex;
+    align-items: center;
+}
+
+.home-img
+{
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
