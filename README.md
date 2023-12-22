@@ -1,11 +1,9 @@
 //// CODE COULEUR ////
 
-    --main-green: #2ecc71;
-    --main-gray: #95a5a6;
-    --light-green: #a2d9ce;
-    --dark-gray: #34495e;
-    --background-white: #ecf0f1;
-
+    Vert Main  :   #2ecc71;
+    Gris Clair :   #95a5a6;
+    Vert Clair :   #a2d9ce;
+    Gris Foncé :   #34495e;
 
 //// IDEE ////
 
