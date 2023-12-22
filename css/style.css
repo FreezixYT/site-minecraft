@@ -9,7 +9,7 @@ body
     font-family: sans-serif;
 }
 
-header
+.nav-main-home
 {
     background-color:#2ecc71;
     display: flex;
@@ -27,10 +27,11 @@ nav
     display: flex;
 }
 
-div
+.art
 {
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .home-img
@@ -38,6 +39,32 @@ div
     justify-content: center;
     display: flex;
     justify-content: space-between;
+}
+
+.connection
+{
+    background-color: #95a5a6;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 5px;
+    text-align: center;
+}
+
+.connection h4
+{
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+
+
+
+
+footer
+{
+    background: #34495e;
+    text-align: center;
 }
 
 
