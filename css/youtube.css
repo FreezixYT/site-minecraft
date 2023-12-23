@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+  }
+  
+  body {
+    background-color: #95a5a6;
+    font-family: sans-serif;
+  }
+  
+  .nav-main-home {
+    background-color: #2ecc71;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    justify-content: space-between;
+  }
+  
+  h1 {
+    margin: 10px;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  .dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: flex; /* Changement ici pour afficher les éléments en colonne */
+    flex-direction: column; /* Nouvelle propriété pour la direction de la colonne */
+  }
+  
+  .dropdown-content a {
+    padding: 12px 16px; /* Ajustement de l'espacement entre les éléments */
+    display: block;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .art {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .home-img {
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .connection {
+    background-color: #95a5a6;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 5px;
+    text-align: center;
+  }
+  
+  .connection h4 {
+    margin-left: 5px;
+    margin-top: 2px;
+  }
+  
+  .titre-site {
+    display: flex;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  
+  main h1 {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  footer {
+    background: #34495e;
+    text-align: center;
+  }
+  
