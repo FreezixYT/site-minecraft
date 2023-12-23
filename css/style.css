@@ -57,8 +57,18 @@ nav
     margin-top: 2px;
 }
 
+.titre-site
+{
+    display: flex;
+    text-align: center;
+}
 
-
+h2
+{
+    
+    margin-top: 10px;
+    margin-left: 5px;
+}
 
 
 footer
