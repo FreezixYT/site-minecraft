@@ -89,6 +89,43 @@ a:hover
     color: white;
 }
 
+main
+{
+    text-align: center;
+}
 
+form 
+{
+    border: 2px solid #ccaf2e;
+    width: 500px;
+    padding: 20px;
+    margin: auto; 
+    background: #2ecc71;
+    
+}
+
+
+
+input
+{
+    width: 100%; 
+    padding: 8px; /* Ajoute un espace intérieur aux champs de saisie */
+    margin-bottom: 10px; /* Ajoute un espacement en bas de chaque champ de saisie */
+    box-sizing: border-box; /* Inclut la bordure et le rembourrage dans la largeur totale */
+}
+
+button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+main h1
+{
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
 
 
