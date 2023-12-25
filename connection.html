@@ -11,23 +11,31 @@
 
 <body>
   <header>
-   <div class="connection">
-    <img src="/img/compt-logo.png" alt="logo compte" width="20px">
-    <h4>Mon Compte</h4>
-   </div>
-
-  <div class="nav-main-home">
-    <div class="titre-site">
-      <img src="https://www.1min30.com/wp-content/uploads/2017/09/icone-minecraft.png" alt="minecraft logo">
-      <h2>FREEZIX.COM</h2>
+    <div class="connection">
+      <img src="/img/compt-logo.png" alt="logo compte" width="20px">
+      <h4>Mon Compte</h4>
     </div>
-    <nav>
-      <a href="home.html"><h1>Home</h1></a>
-      <a href="survie.html"><h1>Survie</h1></a>
-      <a href="youtube.html"><h1>Youtube</h1></a>
-      <a href="wiki.html"><h1>Wiki</h1></a>
-    </nav>
-  </div>
+
+    <div class="nav-main-home">
+      <div class="titre-site">
+        <img src="https://www.1min30.com/wp-content/uploads/2017/09/icone-minecraft.png" alt="minecraft logo">
+        <h2>FREEZIX.COM</h2>
+      </div>
+      <nav>
+        <a href="home.html">
+          <h1>Home</h1>
+        </a>
+        <a href="survie.html">
+          <h1>Survie</h1>
+        </a>
+        <a href="youtube.html">
+          <h1>Youtube</h1>
+        </a>
+        <a href="wiki.html">
+          <h1>Wiki</h1>
+        </a>
+      </nav>
+    </div>
 
   </header>
   <main>
@@ -38,19 +46,44 @@
 
       <label for="name">Nom</label>
       <input type="text" required>
-      
+
       <label for="first-name">Prenom</label>
       <input type="text">
-      
+
       <label for="pseudo">Pseudo</label>
       <input type="text">
-     
-      <label for="mdp">Mot de passe</label>
-      <input type="text">
 
-      <label for="mdp2">Confirmer mot de passe</label>
-      <input type="text">
+      <label for="mail">Email</label>
+      <input type="email" required>
+
+      <label for="mdp">Mot de passe</label>
+      <input type="password">
+
+      <p>Genre</p>
+      <div class="genrs">
+          <div>
+              <label for="Homme">Homme</label>
+              <input type="radio" id="Homme" name="genrs" value="homme">
+          </div>
+          <div>
+              <label for="Femme">Femme</label>
+              <input type="radio" id="Femme" name="genrs" value="femme">
+          </div>
+      </div>
       
+
+      <label for="classe">Année</label>
+      <select id="classe" name="classe">
+          <option value="1">1er</option>
+          <option value="2">2em</option>
+          <option value="3">3em</option>
+          <option value="4">4em</option>
+      </select>
+
+      <input class="btn" type="submit">
+
+
+
 
 
 
