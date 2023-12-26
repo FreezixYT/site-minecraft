@@ -1,3 +1,13 @@
+//// INFO ////
+
+le site est égallement disponible en ligne et heberger chez gabzdev :
+https://freezix.com/
+
+
+Le projet est égallement sur git hub :
+https://github.com/FreezixYT/freezix.com
+
+
 //// CODE COULEUR ////
 
     Vert Main  :   #2ecc71;
