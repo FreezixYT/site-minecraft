@@ -27,11 +27,13 @@ nav
     display: flex;
 }
 
-.art
+
+
+.home-img
 {
+    justify-content: center;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .connection
@@ -82,6 +84,37 @@ a:hover
     color: white;
 }
 
+p
+{
+    margin: 20px;
+}
+
+article {
+    margin-top: 70px;
+    text-align: justify;
+    font-size: medium;
+}
+
+.artl {
+    text-align: left;
+}
+
+.artr {
+    text-align: right;
+}
+
+ /* pour image a droit */
+.img-artl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-artl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* pour image a gauche */
+}
 
 
 
