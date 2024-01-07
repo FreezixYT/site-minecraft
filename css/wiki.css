@@ -26,11 +26,6 @@ header
     background-color: #00536e;
 }
 
-h1
-{
-    margin: 10px;
-}
-
 nav
 {
     display: flex;
@@ -79,7 +74,7 @@ a
     color: black;
 }
 
-header a:hover
+a:hover
 {
     transition: 100ms;
     color: white;
@@ -95,54 +90,74 @@ form
     margin: 5px;
 }
 
-.msg-bienvenue
+main
 {
-    transition: 1s;
-    margin-top: 100px;
-    width: 300px;
+    margin-top: 50px;
     text-align: center;
-    border: 2px solid #00ABE4;
-    border-radius: 10px;
-    border-width: 5px; 
 }
 
-p
+main p 
+{
+    text-align: right;
+    margin-right: 20px;
+    size: 10cm;
+}
+
+main h3
+{
+    text-align: right;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+
+h1
 {
     margin: 10px;
 }
 
-
-main
+aside
 {
-    text-align: center;
+    margin: 5px;
+    margin-top: 50px;
+    width: 300px;
+    border: 2px solid #00ABE4;
+    border-radius: 10px;
+    border-width: 5px; 
+    background-color: #c3cacc;
+
+    
 }
 
-main h1
+main a:hover 
+{
+    color: #0022e4;
+}
+
+aside h1
+{
+    margin-bottom: 10px;
+}
+
+h3
 {
     margin-top: 50px;
 }
 
-.carre
+.main-2
 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.msg-bienvenue:hover
+aside img
 {
-    transition: 500ms;
-    background-color: #d6d6d6;
-    transition: 1s;
-    margin: 1px;
+    display: block; 
+    margin-left: 50px;
+    margin-top: 20px;
+    
 }
 
-
-
-
-
-
-
-
-
+main p
+{
+    width: 400px;
+}
