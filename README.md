@@ -13,10 +13,9 @@ Certain text on été generer par
  
 //// CODE COULEUR ////
 
-    Vert Main  :   #2ecc71;
-    Gris Clair :   #95a5a6;
-    Vert Clair :   #a2d9ce;
-    Gris Foncé :   #34495e;
+    bleu foncer :     #00536e;
+    bleu clair :      #00ABE4;
+    Blanc :           #fff;
 
 
 

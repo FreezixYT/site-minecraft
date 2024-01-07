@@ -138,6 +138,11 @@ main h1
     margin: 1px;
 }
 
+p main
+{
+    width: 100px;
+}
+
 
 
 

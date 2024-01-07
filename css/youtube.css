@@ -1,18 +1,15 @@
-*
-{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body
-{
+body {
     background-color: #fff;
     font-family: sans-serif;
 }
 
 
-.nav-main-home
-{
+.nav-main-home {
     background-color: #00ABE4;
     display: flex;
     align-items: center;
@@ -20,24 +17,20 @@ body
     justify-content: space-between;
 }
 
-header
-{
+header {
     margin-top: 0px;
     background-color: #00536e;
 }
 
-h1
-{
+h1 {
     margin: 10px;
 }
 
-nav
-{
+nav {
     display: flex;
 }
 
-.connection
-{
+.connection {
 
     width: 100%;
     height: 100%;
@@ -46,51 +39,80 @@ nav
     text-align: center;
 }
 
-.connection h4
-{
+.connection h4 {
     margin-left: 5px;
     margin-top: 2px;
 }
 
-.titre-site
-{
+.titre-site {
     display: flex;
     text-align: center;
 }
 
-h2
-{
-    
+h2 {
+
     margin-top: 10px;
     margin-left: 5px;
 }
 
 
-footer
-{
+footer {
     background: #00ABE4;
     text-align: center;
     margin-top: 100px;
 }
 
-a
-{
+a {
     text-decoration: none;
     color: black;
 }
 
-a:hover
-{
+a:hover {
     transition: 100ms;
     color: white;
 }
 
-.ligne1
-{
+.ligne1 {
     display: flex;
 }
 
-form
-{
+form {
     margin: 5px;
+}
+
+
+article {
+    text-align: center;
+    border: 2px solid #00ABE4;
+    border-radius: 10px;
+    border-width: 5px;
+    background-color: #06c1ff;
+}
+
+main {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.art {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+.chaine
+{
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+a{
+    background-color: #00536e;
 }
